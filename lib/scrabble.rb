@@ -1,5 +1,9 @@
 class Scrabble
-  def scores
+  def initialize(word)
     
+  end
+ 
+  def score
+    0
   end
 end
