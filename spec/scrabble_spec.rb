@@ -32,5 +32,15 @@ describe "scrabble" do
     expect(scrabble.score).to eq 6
   end
 
+  it 'returns 22 for "quirky"' do
+    scrabble = Scrabble.new('quirky')
+    expect(scrabble.score).to eq 22
+  end
+
+  it 'returns 41 for "OXYPHENBUTAZONE"' do
+    scrabble = Scrabble.new('OXYPHENBUTAZONE')
+    expect(scrabble.score).to eq 41
+  end
+
 end
 
