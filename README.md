@@ -43,6 +43,6 @@ scrabble.score # => 22
 scrabble = Scrabble.new('OXYPHENBUTAZONE')
 scrabble.score # => 41
 ```
-## Technology
+## Tech Stack
 - Ruby
 - Rspec
